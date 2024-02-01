@@ -195,7 +195,6 @@ public class AssertJTests {
     @DisplayName("튜플로 추출하여 테스트하기😂")
     void testExtractPropertyTuple() {
 
-        //given
         Member member1 = new Member(1, "user01", "홍길동", 20);
         Member member2 = new Member(2, "user02", "유관순", 16);
         Member member3 = new Member(3, "user03", "이순신", 40);
@@ -213,7 +212,7 @@ public class AssertJTests {
                         Tuple.tuple("홍길동", 20),
                         Tuple.tuple("유관순", 16)
                 );
-    } 
+    }
 
 
 }
